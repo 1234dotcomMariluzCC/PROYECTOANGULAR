@@ -1,0 +1,56 @@
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #B2FFFF;">
+  <div class="container-fluid d-flex justify-content-between">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="menu" routerLinkActive="active">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="perfil" routerLinkActive="active">Quiemnes somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="experiencia" routerLinkActive="active">Experiencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="habilidades" routerLinkActive="active">Habilidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contacto" routerLinkActive="active">Contacto</a>
+        </li>
+      </ul>
+    </div>
+    <a class="navbar-brand mx-auto" href="#">
+      <img src="./../assets/LO.JPG" alt="" width="80" height="60" class="d-inline-block align-text-top" style="border-radius: 50%;">
+      EcosPasados
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+
+
+
+
+<router-outlet />
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top celeste">
+    <p class="col-md-4 mb-0 text-muted">© 2024 Company </p>
+
+    <a  class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="home" class="nav-link px-2 text-muted">MARILUZ CUSSI</a></li>
+      <li class="nav-item"><a  class="nav-link px-2 text-muted">Contactos</a></li>
+      <li class="nav-item"><a  class="nav-link px-2 text-muted">Redes Sociales</a></li>
+    </ul>
+  </footer>
+</div>
+
+
+
+

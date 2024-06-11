@@ -1,0 +1,17 @@
+.celeste {
+    background-color: #B2FFFF;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  .active-link{
+    background-color: antiquewhite;
+  }
+
+  .active-link a{
+color: black;
+  }
+
+  .nav-link {
+    cursor: pointer;
+  }
